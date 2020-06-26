@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   <style>
+       .table{
+           border: 1px solid;
+           height: 500px;
+           width: 400px;
+           background-color: gray;
+           margin-left: 400px;
+       }
+       .xp button{
+           margin-left: 05px;
+           margin-top: 20px;
+        height: 50px;
+        width: 90px;
+        font-size: 30px;
+       }
+   </style>
+</head>
+<body>
+    <div class="table"  >
+
+    <h1 style="text-align: center;">CALCULATOR</h1>
+        <input id="result"  type="text" style="width: 380px; height: 40px;margin-left: 06px;margin-top: 10px;">
+
+  <div class="xp">
+  <div>
+      <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('7')">7</button>
+      <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('8')">8</button>
+      <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('9')">9</button>
+      <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('*')">*</button>
+  </div>
+   <div>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('4')">4</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';" onclick="getnum('5')">5</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';" onclick="getnum('6')">6</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('-')">-</button>
+</div>
+
+<div>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('1')">1</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('2')">2</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('3')">3</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('+')">+</button>
+</div>
+<div>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="getnum('0')">0</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';"onclick="ans()" >=</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';" onclick="clearr()">C</button>
+    <button onmouseover="this.style.backgroundColor='blue';"onmouseout="this.style.backgroundColor='yellow';" onclick="getnum('/')">/</button>
+</div>
+
+
+    </div>
+    </div>
+</body>
+<script src='main.js'></script>
+</html>
